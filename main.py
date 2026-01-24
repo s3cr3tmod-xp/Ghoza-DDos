@@ -45,30 +45,7 @@ def display_header():
     header_lines = [
         f"{Fore.GREEN}══════════════════════════════════════════════════════════════════════════",
         f"{Fore.YELLOW}",
-        f"{Fore.YELLOW} ██████▒▒   ██▒▒                 ██████▒▒ ██▒▒   ██▒▒",
-        f"{Fore.YELLOW} ██▒▒   ██▒▒██▒▒                ██▒▒      ██▒▒  ██▒▒",
-        f"{Fore.YELLOW} ██▒▒   ██▒▒██▒▒                ██▒▒      ██▒▒ ██▒▒",
-        f"{Fore.YELLOW} ██▒▒   ██▒▒██▒▒        {Fore.RED}█▒▒     {Fore.YELLOW}██▒▒      ██▒▒██▒▒",
-        f"{Fore.YELLOW} █████▒▒    ██▒▒       {Fore.RED}███▒▒    {Fore.YELLOW}██▒▒      ██▒██▒▒",
-        f"{Fore.YELLOW} ██▒▒   ██▒▒██▒▒      {Fore.RED}██▒██▒▒   {Fore.YELLOW}██▒▒      ██▒▒██▒▒ ",
-        f"{Fore.YELLOW} ██▒▒   ██▒▒██▒▒     {Fore.RED}██▒▒ ██▒▒  {Fore.YELLOW}██▒▒      ██▒▒ ██▒▒",
-        f"{Fore.YELLOW} ██████▒▒   ██████▒▒{Fore.RED}██▒▒   ██▒▒  {Fore.YELLOW}██████▒▒ ██▒▒   ██▒▒",
-        f"{Fore.RED}                   {Fore.RED}██▒▒     ██▒▒    {Fore.GREEN}███████▒▒  ████▒▒     ████▒██▒▒       ██▒▒",
-        f"{Fore.RED}                  {Fore.RED}████████▒▒ ██▒▒   {Fore.GREEN}██▒▒   ██▒▒██▒██▒▒   ██▒██▒▒██▒▒     ██▒▒",
-        f"{Fore.RED}                 {Fore.RED}██▒▒         ██▒▒  {Fore.GREEN}██▒▒   ██▒▒██▒▒██▒▒ ██▒▒██▒▒ ██▒▒   ██▒▒",
-        f"{Fore.RED}                {Fore.RED}██▒▒           ██▒▒ {Fore.GREEN}██▒▒   ██▒▒██▒▒ ██▒██▒▒ ██▒▒  ██▒▒ ██▒▒",
-        f"{Fore.GREEN}               {Fore.RED}██▒▒             ██▒▒{Fore.GREEN}██▒▒   ██▒▒██▒▒  ███▒▒  ██▒▒   ██▒██▒▒",
-        f"{Fore.GREEN}                                    ██████▒▒   ██▒▒   ██▒▒  ██▒▒    ███▒▒",
-        f"{Fore.GREEN}                                    ██▒▒ ██▒▒  ██▒▒         ██▒▒     ██▒▒",
-        f"{Fore.GREEN}                                    ██▒▒   ██▒▒██▒▒         ██▒▒     ██▒▒",
-        f"{Fore.GREEN}",
-        f"{Fore.GREEN} ",    
-        f"{Fore.RED}    █████▒▒  ███▒▒   ██▒▒   ██▒▒ █▒▒  █▒▒ ██▒▒ █▒▒ █▒▒███████▒▒ █▒▒   █▒▒",
-        f"{Fore.RED}   █▒▒      █▒▒  █▒▒ █▒█▒▒ █▒█▒▒ █▒▒  █▒▒ █▒█▒▒█▒▒ █▒▒   █▒▒     █▒▒ █▒▒",
-        f"{Fore.WHITE}   █▒▒      █▒▒  █▒▒ █▒▒█▒█▒▒█▒▒ █▒▒  █▒▒ █▒▒█▒█▒▒ █▒▒   █▒▒      ██▒▒",
-        f"{Fore.WHITE}    ████▒▒   ███▒▒   █▒▒██▒▒ █▒▒  ███▒▒   █▒▒ ██▒▒ █▒▒   █▒▒       █▒▒",
-        f"{Fore.WHITE}",      
-        f"{Fore.YELLOW}════════════════════════════════════════════════════════════════════════════",
+
     ]
     for line in header_lines:
         print(line)
