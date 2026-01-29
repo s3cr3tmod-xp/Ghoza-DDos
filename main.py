@@ -4,7 +4,7 @@ import time
 import sys
 import datetime
 import asyncio
-import threads
+import threading
 from collections import Counter
 from statistics import mean
 from urllib.parse import urlparse
