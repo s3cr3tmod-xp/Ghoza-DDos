@@ -102,10 +102,10 @@ class MonitorThread(threading.Thread):
 		previous=request_counter
 		while flag==0:
 			if (previous+500<request_counter) & (previous.request_counter):
-				print "%d ATTACKED THE SERVER -->" % (request_counter)
+				print(f"%d ATTACKED THE SERVER -->" % (request_counter))
 				previous=request_counter
 		if flag==2:
-			print "\n-- Attack Finished --"
+			print(f"\n-- Attack Finished --")
 
 
 if len(sys.argv) < 2:
@@ -116,8 +116,8 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "ATTACK STARTED"
-			if sys.argv[2]=="safe":
+		print("ATTACK STARTED")
+			if sys.argv[2]==("safe"):
 				set_safe()
 		url = sys.argv[1]
 		if url.count("/")==2:
