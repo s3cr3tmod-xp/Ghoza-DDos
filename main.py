@@ -110,9 +110,11 @@ class MonitorThread(threading.Thread):
 
 
 if len(sys.argv) < 2:
+	usage(url)
 	sys.exit()
 else:
 	if sys.argv[1]=="help":
+		usage(url)
 		sys.exit()
 	else:
 		print("ATTACK STARTED")
