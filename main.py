@@ -117,7 +117,7 @@ else:
 		sys.exit()
 	else:
 		print("ATTACK STARTED")
-			if sys.argv[2]==("safe"):
+		if sys.argv[2]=="safe":
 				set_safe()
 		url = sys.argv[1]
 		if url.count("/")==2:
