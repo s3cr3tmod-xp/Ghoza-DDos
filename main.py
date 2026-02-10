@@ -11,9 +11,9 @@ from urllib.parse import urlparse
 from sys import stdout
 import logging
 import contextlib
-
 import validators
 import aiohttp
+from some_module import usage
 from colorama import Fore, Style, init
 
 
