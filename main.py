@@ -14,9 +14,10 @@ import logging
 import contextlib
 import validators
 import aiohttp
-from some_module import usage
+
 from colorama import Fore, Style, init
-except ModuleNotFoundError as e:
+from some_module import usage
+except ModuleNotFoundError as usage:
     print(f"{e} CAN'T IMPORT . . . .")
     exit()
 
