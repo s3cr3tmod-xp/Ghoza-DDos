@@ -1,22 +1,23 @@
 # -*- coding: utf-8 -*-
 #! /usr/bin/python3.11
-import time
-import sys
-import datetime
-import asyncio
-import threading
-from collections import Counter
-from statistics import mean
-import urllib3
-from urllib.parse import urlparse
-from sys import stdout
-import logging
-import contextlib
-import validators
-import aiohttp
-
-from colorama import Fore, Style, init
-from some_module import usage
+#CHECK IMPORT
+try:
+   import time
+   import sys
+   import datetime
+   import asyncio
+   import threading
+   from collections import Counter
+   from statistics import mean
+   import urllib3
+   from urllib.parse import urlparse
+   from sys import stdout
+   import logging
+   import contextlib
+   import validators
+   import aiohttp
+   from colorama import Fore, Style, init
+   from some_module import usage
 except ModuleNotFoundError as usage:
     print(f"{e} CAN'T IMPORT . . . .")
     exit()
