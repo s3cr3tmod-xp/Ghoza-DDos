@@ -16,6 +16,9 @@ import validators
 import aiohttp
 from some_module import usage
 from colorama import Fore, Style, init
+except ModuleNotFoundError as e:
+    print(f"{e} CAN'T IMPORT . . . .")
+    exit()
 
 
 # Init color & logging
