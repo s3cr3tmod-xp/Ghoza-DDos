@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 #! /usr/bin/python3.11
-#CHECK IMPORT
 try:
     import time
     import sys
